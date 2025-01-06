@@ -20,6 +20,15 @@ void classes_test()
 
 int main()
 {
-    cout << "Hello, World!" << endl;
+    cout << "=============================================" << endl;
+    cout << "Last build: " << __DATE__ << " " << __TIME__ << endl;
+    cout << "current version: v0.0.1 -> v? " << endl;
+    cout << "v0.0.1:\t" << "初始化了项目, 构思好了要哪些类. " << endl;
+    cout << "----* START *--------------------------------" << endl;
+
+    classes_test();
+
+    cout << "----* END *----------------------------------" << endl;
+
     return 0;
 }
